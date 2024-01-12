@@ -1,0 +1,61 @@
+/* survey.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.survey-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.option-card {
+    width: 200px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.option-card h2 {
+    margin-top: 0;
+}
+
+.votes {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#total-votes {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#total-votes::before {
+    content: "Total Votes: ";
+}

@@ -1,0 +1,39 @@
+<!-- survey.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Application</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+    <header>
+        <h1>Survey Title</h1>
+        <img src="banking_logo.png" alt="Banking Logo">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="survey.html">Survey</a>
+    </nav>
+    <div class="survey-options">
+        <div class="option-card" id="internet-card">
+            <h2>Internet</h2>
+            <div class="votes" id="internet-votes"></div>
+        </div>
+        <div class="option-card" id="mobile-card">
+            <h2>Mobile</h2>
+            <div class="votes" id="mobile-votes"></div>
+        </div>
+        <div class="option-card" id="wearable-card">
+            <h2>Wearable</h2>
+            <div class="votes" id="wearable-votes"></div>
+        </div>
+        <div class="option-card" id="local-branch-card">
+            <h2>Local Branch</h2>
+            <div class="votes" id="local-branch-votes"></div>
+        </div>
+    </div>
+    <div id="total-votes"></div>
+    <script src="survey.js"></script>
+</body>
+</html>
